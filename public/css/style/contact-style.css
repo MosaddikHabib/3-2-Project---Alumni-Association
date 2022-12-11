@@ -1,0 +1,17 @@
+.contact-form {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5px;
+    color: rgb(56, 2, 7);
+}
+
+.btn-outline-danger {
+    color: white;
+    background: rgb(56, 2, 7);
+}
+
+.btn-outline-danger:hover {
+    color: rgb(56, 2, 7);
+    ;
+    background: rgba(179, 35, 49, 0);
+}
