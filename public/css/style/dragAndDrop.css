@@ -1,0 +1,26 @@
+#drop-area {
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 50px;
+    text-align: center;
+}
+
+#fileInput {
+    display: none;
+}
+
+.my-form p {
+    margin: 0;
+}
+
+#fileList {
+    margin-top: 20px;
+}
+
+#fileList img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    border: 1px solid #CCC;
+}

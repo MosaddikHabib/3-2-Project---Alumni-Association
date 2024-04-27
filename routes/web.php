@@ -17,6 +17,7 @@ use App\Http\Controllers\DemoController;
 Route::get('/', [DemoController::class, 'index']);
 Route::get('/about', [DemoController::class, 'about']);
 Route::get('/contact', [DemoController::class, 'contact']);
+Route::get('/search', [DemoController::class, 'search']);
 
 
 // Route::get('/home', function () {

@@ -1,0 +1,92 @@
+.divission {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    overflow-x: scroll;
+    height: 100vh;
+}
+
+.side-panel {
+    width: 20%;
+
+    /* background-color: #af040440; */
+    /* border-right: 5px solid brown; */
+    position: sticky;
+    top: 30px;
+    margin-right: 5px;
+}
+
+.work-place {
+    width: 80%;
+    /* background-color: #778f2c40; */
+}
+
+.side-panel div {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: brown;
+    /* border-color: none; */
+    margin: 5px;
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+.side-panel div:hover {
+    background-color: rgba(165, 42, 42, 0.19);
+    border: 1px solid brown;
+    color: black;
+}
+
+.side-panel div a {
+    font-size: 1.2rem;
+}
+
+.work-place .create-post input[type="file"] {
+    display: none;
+    color: black;
+
+}
+
+label {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+}
+
+.create-post-title {
+    font-size: 30px;
+    color: brown;
+    font-weight: 800;
+    text-align: center;
+}
+
+.create-post {
+    height: 100vh;
+}
+
+.post-title {
+    width: 100%;
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+
+.post-area h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.post-description {
+    width: 100%;
+    height: 60vh;
+    border: 3px solid brown;
+}
+
+.submit-btn {
+    height: 40px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 5px;
+}

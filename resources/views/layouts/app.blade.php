@@ -7,6 +7,10 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <!-- custom CSS form public -->
+        <link rel="stylesheet" href="/css/style/dashboard.css">
+        <link rel="stylesheet" href="/css/style/dragAnddrop.css">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 

@@ -15,4 +15,7 @@ class DemoController extends Controller
     function contact(){
         return view ("contact");
     }
+    function search(){
+        return view ("search");
+    }
 }

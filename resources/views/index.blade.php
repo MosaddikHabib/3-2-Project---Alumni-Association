@@ -42,11 +42,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('/about')}}">About</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url('/search')}}">Search</a>
+                        </li>
 
                     </ul>
                     <div class="m2">
-                        <a href="/pages/login.html" class="btn btn-outline-success">Log In</a>
-                        <a href="/pages/regi.html" class="btn btn-outline-danger">Sign Up</a>
+                        <a href="{{url('/login')}}" class="btn btn-outline-success">Log In</a>
+                        <a href="{{url('/register')}}" class="btn btn-outline-danger">Sign Up</a>
                     </div>
                 </div>
             </div>
